@@ -1,0 +1,47 @@
+[
+  {
+    "type": "text",
+    "name": "username",
+    "label": "Username",
+    "required": true,
+    "validationMessage": "Username is required."
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "label": "Email",
+    "required": true,
+    "validationMessage": "Email is required and must be a valid email address."
+  },
+  {
+    "type": "password",
+    "name": "password",
+    "label": "Password",
+    "required": true,
+    "minLength": 6,
+    "validationMessage": "Password is required and must be at least 6 characters long."
+  },
+  {
+    "type": "select",
+    "name": "country",
+    "label": "Country",
+    "options": ["USA", "Canada", "Mexico"],
+    "required": true,
+    "validationMessage": "Please select a country."
+  },
+  {
+    "type": "radio",
+    "name": "gender",
+    "label": "Gender",
+    "options": ["Male", "Female"],
+    "required": true,
+    "validationMessage": "Please select your gender."
+  },
+  {
+    "type": "checkbox",
+    "name": "agree",
+    "label": "I agree to the terms and conditions",
+    "required": true,
+    "validationMessage": "You must agree to the terms and conditions."
+  }
+]
